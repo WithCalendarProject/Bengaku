@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		329EACA82159074800A0C8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACA72159074800A0C8DA /* AppDelegate.swift */; };
-		329EACAA2159074800A0C8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACA92159074800A0C8DA /* ViewController.swift */; };
-		329EACAD2159074800A0C8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EACAB2159074800A0C8DA /* Main.storyboard */; };
+		329EACAA2159074800A0C8DA /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACA92159074800A0C8DA /* TimetableViewController.swift */; };
+		329EACAD2159074800A0C8DA /* TimetableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EACAB2159074800A0C8DA /* TimetableViewController.storyboard */; };
 		329EACAF2159074900A0C8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329EACAE2159074900A0C8DA /* Assets.xcassets */; };
 		329EACB22159074900A0C8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EACB02159074900A0C8DA /* LaunchScreen.storyboard */; };
 		329EACBD2159074900A0C8DA /* BengakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACBC2159074900A0C8DA /* BengakuTests.swift */; };
@@ -36,8 +36,8 @@
 /* Begin PBXFileReference section */
 		329EACA42159074800A0C8DA /* Bengaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bengaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329EACA72159074800A0C8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		329EACA92159074800A0C8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		329EACAC2159074800A0C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329EACA92159074800A0C8DA /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
+		329EACAC2159074800A0C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TimetableViewController.storyboard; sourceTree = "<group>"; };
 		329EACAE2159074900A0C8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329EACB12159074900A0C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329EACB32159074900A0C8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				329EACA72159074800A0C8DA /* AppDelegate.swift */,
-				329EACA92159074800A0C8DA /* ViewController.swift */,
-				329EACAB2159074800A0C8DA /* Main.storyboard */,
+				329EACA92159074800A0C8DA /* TimetableViewController.swift */,
+				329EACAB2159074800A0C8DA /* TimetableViewController.storyboard */,
 				329EACAE2159074900A0C8DA /* Assets.xcassets */,
 				329EACB02159074900A0C8DA /* LaunchScreen.storyboard */,
 				329EACB32159074900A0C8DA /* Info.plist */,
@@ -231,7 +231,7 @@
 			files = (
 				329EACB22159074900A0C8DA /* LaunchScreen.storyboard in Resources */,
 				329EACAF2159074900A0C8DA /* Assets.xcassets in Resources */,
-				329EACAD2159074800A0C8DA /* Main.storyboard in Resources */,
+				329EACAD2159074800A0C8DA /* TimetableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329EACAA2159074800A0C8DA /* ViewController.swift in Sources */,
+				329EACAA2159074800A0C8DA /* TimetableViewController.swift in Sources */,
 				329EACA82159074800A0C8DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +293,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		329EACAB2159074800A0C8DA /* Main.storyboard */ = {
+		329EACAB2159074800A0C8DA /* TimetableViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				329EACAC2159074800A0C8DA /* Base */,
 			);
-			name = Main.storyboard;
+			name = TimetableViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		329EACB02159074900A0C8DA /* LaunchScreen.storyboard */ = {
