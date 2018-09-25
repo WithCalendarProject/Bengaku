@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		329EACA82159074800A0C8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACA72159074800A0C8DA /* AppDelegate.swift */; };
-		329EACAA2159074800A0C8DA /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACA92159074800A0C8DA /* TimetableViewController.swift */; };
 		329EACAD2159074800A0C8DA /* TimetableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EACAB2159074800A0C8DA /* TimetableViewController.storyboard */; };
 		329EACAF2159074900A0C8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329EACAE2159074900A0C8DA /* Assets.xcassets */; };
 		329EACB22159074900A0C8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EACB02159074900A0C8DA /* LaunchScreen.storyboard */; };
 		329EACBD2159074900A0C8DA /* BengakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACBC2159074900A0C8DA /* BengakuTests.swift */; };
 		329EACC82159074900A0C8DA /* BengakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACC72159074900A0C8DA /* BengakuUITests.swift */; };
+		329EACD621591A3100A0C8DA /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329EACD521591A3100A0C8DA /* TimetableViewController.swift */; };
+		387D5281E28256CBE32A12EE /* Pods_Bengaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176FA04C4ED6AAC0CD77B6FE /* Pods_Bengaku.framework */; };
+		6E6DC87C4391F5E1434EFA80 /* Pods_BengakuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0100BA6F3CD569150BCB3AA /* Pods_BengakuUITests.framework */; };
+		AD2A00A13057CFABB4C625DB /* Pods_BengakuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6972D3283AE4567FA359DC60 /* Pods_BengakuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B3B42A28C4CA0E64C31BB2 /* Pods-BengakuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengakuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BengakuTests/Pods-BengakuTests.release.xcconfig"; sourceTree = "<group>"; };
+		176FA04C4ED6AAC0CD77B6FE /* Pods_Bengaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bengaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		329EACA42159074800A0C8DA /* Bengaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bengaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329EACA72159074800A0C8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		329EACA92159074800A0C8DA /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		329EACAC2159074800A0C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TimetableViewController.storyboard; sourceTree = "<group>"; };
 		329EACAE2159074900A0C8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329EACB12159074900A0C8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		329EACC32159074900A0C8DA /* BengakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329EACC72159074900A0C8DA /* BengakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BengakuUITests.swift; sourceTree = "<group>"; };
 		329EACC92159074900A0C8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329EACD521591A3100A0C8DA /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
+		6972D3283AE4567FA359DC60 /* Pods_BengakuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BengakuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7F5C100235E4931E981630 /* Pods-Bengaku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bengaku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bengaku/Pods-Bengaku.debug.xcconfig"; sourceTree = "<group>"; };
+		80720922206ECF91F73D2257 /* Pods-BengakuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengakuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BengakuUITests/Pods-BengakuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0100BA6F3CD569150BCB3AA /* Pods_BengakuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BengakuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48079A1E27EEDA15591B024 /* Pods-BengakuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengakuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BengakuUITests/Pods-BengakuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E19B979608C45B9B0CEC136D /* Pods-Bengaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bengaku.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bengaku/Pods-Bengaku.release.xcconfig"; sourceTree = "<group>"; };
+		E4E449120092B624296F80E4 /* Pods-BengakuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengakuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BengakuTests/Pods-BengakuTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387D5281E28256CBE32A12EE /* Pods_Bengaku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2A00A13057CFABB4C625DB /* Pods_BengakuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6DC87C4391F5E1434EFA80 /* Pods_BengakuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29F0B5D7284D47C6A1BE626D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F5C100235E4931E981630 /* Pods-Bengaku.debug.xcconfig */,
+				E19B979608C45B9B0CEC136D /* Pods-Bengaku.release.xcconfig */,
+				E4E449120092B624296F80E4 /* Pods-BengakuTests.debug.xcconfig */,
+				05B3B42A28C4CA0E64C31BB2 /* Pods-BengakuTests.release.xcconfig */,
+				80720922206ECF91F73D2257 /* Pods-BengakuUITests.debug.xcconfig */,
+				D48079A1E27EEDA15591B024 /* Pods-BengakuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		329EAC9B2159074800A0C8DA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				329EACBB2159074900A0C8DA /* BengakuTests */,
 				329EACC62159074900A0C8DA /* BengakuUITests */,
 				329EACA52159074800A0C8DA /* Products */,
+				29F0B5D7284D47C6A1BE626D /* Pods */,
+				5217343C128978C148914601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				329EACA72159074800A0C8DA /* AppDelegate.swift */,
-				329EACA92159074800A0C8DA /* TimetableViewController.swift */,
+				329EACD521591A3100A0C8DA /* TimetableViewController.swift */,
 				329EACAB2159074800A0C8DA /* TimetableViewController.storyboard */,
 				329EACAE2159074900A0C8DA /* Assets.xcassets */,
 				329EACB02159074900A0C8DA /* LaunchScreen.storyboard */,
@@ -125,6 +155,16 @@
 			path = BengakuUITests;
 			sourceTree = "<group>";
 		};
+		5217343C128978C148914601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176FA04C4ED6AAC0CD77B6FE /* Pods_Bengaku.framework */,
+				6972D3283AE4567FA359DC60 /* Pods_BengakuTests.framework */,
+				D0100BA6F3CD569150BCB3AA /* Pods_BengakuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329EACCC2159074900A0C8DA /* Build configuration list for PBXNativeTarget "Bengaku" */;
 			buildPhases = (
+				4F8C1BA80CDB124ADCDCA1DF /* [CP] Check Pods Manifest.lock */,
 				329EACA02159074800A0C8DA /* Sources */,
 				329EACA12159074800A0C8DA /* Frameworks */,
 				329EACA22159074800A0C8DA /* Resources */,
+				400CC045ED8CB544AD569DAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329EACCF2159074900A0C8DA /* Build configuration list for PBXNativeTarget "BengakuTests" */;
 			buildPhases = (
+				5888CEE2C94B1F33F6C38951 /* [CP] Check Pods Manifest.lock */,
 				329EACB42159074900A0C8DA /* Sources */,
 				329EACB52159074900A0C8DA /* Frameworks */,
 				329EACB62159074900A0C8DA /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329EACD22159074900A0C8DA /* Build configuration list for PBXNativeTarget "BengakuUITests" */;
 			buildPhases = (
+				1DBA55B310389130B7B183F0 /* [CP] Check Pods Manifest.lock */,
 				329EACBF2159074900A0C8DA /* Sources */,
 				329EACC02159074900A0C8DA /* Frameworks */,
 				329EACC12159074900A0C8DA /* Resources */,
@@ -251,12 +295,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DBA55B310389130B7B183F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BengakuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400CC045ED8CB544AD569DAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bengaku/Pods-Bengaku-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpreadsheetView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bengaku/Pods-Bengaku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8C1BA80CDB124ADCDCA1DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bengaku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5888CEE2C94B1F33F6C38951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BengakuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		329EACA02159074800A0C8DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329EACAA2159074800A0C8DA /* TimetableViewController.swift in Sources */,
+				329EACD621591A3100A0C8DA /* TimetableViewController.swift in Sources */,
 				329EACA82159074800A0C8DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +547,7 @@
 		};
 		329EACCD2159074900A0C8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7F5C100235E4931E981630 /* Pods-Bengaku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +566,7 @@
 		};
 		329EACCE2159074900A0C8DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19B979608C45B9B0CEC136D /* Pods-Bengaku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +585,7 @@
 		};
 		329EACD02159074900A0C8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E449120092B624296F80E4 /* Pods-BengakuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +607,7 @@
 		};
 		329EACD12159074900A0C8DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B3B42A28C4CA0E64C31BB2 /* Pods-BengakuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +629,7 @@
 		};
 		329EACD32159074900A0C8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80720922206ECF91F73D2257 /* Pods-BengakuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +650,7 @@
 		};
 		329EACD42159074900A0C8DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48079A1E27EEDA15591B024 /* Pods-BengakuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
